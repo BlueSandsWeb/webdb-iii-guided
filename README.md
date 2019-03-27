@@ -16,3 +16,12 @@ Guided project for **Web DB III** Module.
 - [ ] type `yarn server` or `npm run server` to start the API.
 
 Please follow along as the instructor uses Knex migrations and seeding to manage the database schema and add test data.
+
+
+STEPS: 
+npx knex
+npx knex init
+make changes to knexfile.js
+npx knex migrate:make roles_table
+make changes to migration file
+npx knex migrate:latest
